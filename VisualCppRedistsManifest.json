@@ -1,0 +1,187 @@
+﻿[
+    {
+        "dllPaths":  [
+                         "%SYSTEMROOT%\\WinSxS\\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b*\\msvcp80.dll",
+                         "%SYSTEMROOT%\\WinSxS\\Fusion\\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b*\\*\\*\\msvcp80.dll"
+                     ],
+        "arch":  "x86",
+        "productName":  "Microsoft Visual C++ 2005 Redistributable",
+        "doNotReinstallIfOrphanedDll":  true,
+        "productCodes":  "{710f4c1c-cc18-4c49-8cbf-51240c89a1a2}",
+        "latestDllVersion":  "8.0.50727.6229",
+        "installers":  ".\\installers\\2005\\x86\\vcredist.msi",
+        "regexFilter":  "^(?i)\\s*(?:Microsoft\\s+)?Visual\\s*C\\+\\+\\s*2005\\b.*?\\b(?:Redistributable|Runtime)\\b.*$"
+    },
+    {
+        "dllPaths":  [
+                         "%SYSTEMROOT%\\WinSxS\\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b*\\msvcp80.dll",
+                         "%SYSTEMROOT%\\WinSxS\\Fusion\\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b*\\*\\*\\msvcp80.dll"
+                     ],
+        "arch":  "x64",
+        "productName":  "Microsoft Visual C++ 2005 Redistributable (x64)",
+        "doNotReinstallIfOrphanedDll":  true,
+        "productCodes":  "{ad8a2fa1-06e7-4b0d-927d-6e54b3d31028}",
+        "latestDllVersion":  "8.0.50727.6229",
+        "installers":  ".\\installers\\2005\\x64\\vcredist.msi",
+        "regexFilter":  "^(?i)\\s*(?:Microsoft\\s+)?Visual\\s*C\\+\\+\\s*2005\\b.*?\\b(?:Redistributable|Runtime)\\b.*$"
+    },
+    {
+        "installers":  ".\\installers\\2008\\x86\\vc_red.msi",
+        "arch":  "x86",
+        "productCodes":  "{9BE518E6-ECC6-35A9-88E4-87755C07200F}",
+        "latestDllVersion":  "9.0.30729.7523",
+        "doNotReinstallIfOrphanedDll":  true,
+        "msiFeatureRegistry":  "HKLM:\\SOFTWARE\\Classes\\Installer\\Features\\6E815EB96CCE9A53884E7857C57002F0",
+        "dllPaths":  [
+                         "%SYSTEMROOT%\\WinSxS\\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b*\\msvcp90.dll",
+                         "%SYSTEMROOT%\\WinSxS\\Fusion\\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b*\\*\\*\\msvcp90.dll"
+                     ],
+        "regexFilter":  "^(?i)\\s*(?:Microsoft\\s+)?Visual\\s*C\\+\\+\\s*2008\\b.*?\\b(?:Redistributable|Runtime)\\b.*$",
+        "productName":  "Microsoft Visual C++ 2008 Redistributable - x86"
+    },
+    {
+        "installers":  ".\\installers\\2008\\x64\\vc_red.msi",
+        "arch":  "x64",
+        "productCodes":  "{5FCE6D76-F5DC-37AB-B2B8-22AB8CEDB1D4}",
+        "latestDllVersion":  "9.0.30729.7523",
+        "doNotReinstallIfOrphanedDll":  true,
+        "msiFeatureRegistry":  "HKLM:\\SOFTWARE\\Classes\\Installer\\Features\\67D6ECF5CD5FBA732B8B22BAC8DE1B4D",
+        "dllPaths":  [
+                         "%SYSTEMROOT%\\WinSxS\\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b*\\msvcp90.dll",
+                         "%SYSTEMROOT%\\WinSxS\\Fusion\\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b*\\*\\*\\msvcp90.dll"
+                     ],
+        "regexFilter":  "^(?i)\\s*(?:Microsoft\\s+)?Visual\\s*C\\+\\+\\s*2008\\b.*?\\b(?:Redistributable|Runtime)\\b.*$",
+        "productName":  "Microsoft Visual C++ 2008 Redistributable - x64"
+    },
+    {
+        "installers":  ".\\installers\\vstor\\vstor40_x86.msi",
+        "arch":  "x86",
+        "productCodes":  "{888E1022-9CD3-32AC-BE6B-668FF6ABA136}",
+        "latestDllVersion":  "10.0.60917.0",
+        "onlyOn32BitOS":  true,
+        "msiFeatureRegistry":  "HKLM:\\SOFTWARE\\Classes\\Installer\\Features\\2201E8883DC9CA23EBB666F86FBA1A63",
+        "dllPaths":  "%x86CommonProgramFolder%\\Microsoft Shared\\VSTO\\vstoee.dll",
+        "regexFilter":  "^(?i)(?!.*\\blanguage\\s*pack\\b)(?!.*\\bsdk\\b)\\s*(?:Microsoft\\s+)?Visual\\s+Studio\\s+2010\\s+Tools\\s+for\\s+Office\\s+Runtime\\b.*$",
+        "productName":  "Microsoft Visual Studio 2010 Tools for Office Runtime"
+    },
+    {
+        "dllPaths":  "%x64CommonProgramFolder%\\Microsoft Shared\\VSTO\\vstoee.dll",
+        "arch":  "x64",
+        "productName":  "Microsoft Visual Studio 2010 Tools for Office Runtime (x64)",
+        "productCodes":  "{610487D9-3460-328A-9333-219D43A75CC5}",
+        "msiFeatureRegistry":  "HKLM:\\SOFTWARE\\Classes\\Installer\\Features\\9D7840160643A823393312D9347AC55C",
+        "latestDllVersion":  "10.0.60917.0",
+        "installers":  ".\\installers\\vstor\\vstor40_x64.msi",
+        "regexFilter":  "^(?i)(?!.*\\blanguage\\s*pack\\b)(?!.*\\bsdk\\b)\\s*(?:Microsoft\\s+)?Visual\\s+Studio\\s+2010\\s+Tools\\s+for\\s+Office\\s+Runtime\\b.*$"
+    },
+    {
+        "dllPaths":  "%x86SystemFolder%\\msvcp100.dll",
+        "arch":  "x86",
+        "productName":  "Microsoft Visual C++ 2010  x86 Redistributable",
+        "productCodes":  "{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}",
+        "msiFeatureRegistry":  "HKLM:\\SOFTWARE\\Classes\\Installer\\Features\\1D5E3C0FEDA1E123187686FED06E995A",
+        "latestDllVersion":  "10.0.40219.473",
+        "installers":  ".\\installers\\2010\\x86\\vc_red.msi",
+        "regexFilter":  "^(?i)\\s*(?:Microsoft\\s+)?Visual\\s*C\\+\\+\\s*2010\\b.*?\\b(?:Redistributable|Runtime)\\b.*$"
+    },
+    {
+        "dllPaths":  "%x64SystemFolder%\\msvcp100.dll",
+        "arch":  "x64",
+        "productName":  "Microsoft Visual C++ 2010  x64 Redistributable",
+        "productCodes":  "{1D8E6291-B0D5-35EC-8441-6616F567A0F7}",
+        "msiFeatureRegistry":  "HKLM:\\SOFTWARE\\Classes\\Installer\\Features\\1926E8D15D0BCE53481466615F760A7F",
+        "latestDllVersion":  "10.0.40219.473",
+        "installers":  ".\\installers\\2010\\x64\\vc_red.msi",
+        "regexFilter":  "^(?i)\\s*(?:Microsoft\\s+)?Visual\\s*C\\+\\+\\s*2010\\b.*?\\b(?:Redistributable|Runtime)\\b.*$"
+    },
+    {
+        "latestDllVersion":  "11.0.61135.400",
+        "installers":  [
+                           ".\\installers\\2012\\x86\\vc_runtimeMinimum_x86.msi",
+                           ".\\installers\\2012\\x86\\vc_runtimeAdditional_x86.msi"
+                       ],
+        "productCodes":  [
+                             "{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}",
+                             "{B175520C-86A2-35A7-8619-86DC379688B9}"
+                         ],
+        "regexFilter":  "^(?i)\\s*(?:Microsoft\\s+)?Visual\\s*C\\+\\+\\s*2012\\b.*?\\b(?:Redistributable|(?:Additional|Minimum)\\s+Runtime)\\b.*$",
+        "arch":  "x86",
+        "productName":  "Microsoft Visual C++ 2012 Redistributable (x86)",
+        "dllPaths":  "%x86SystemFolder%\\msvcp110.dll"
+    },
+    {
+        "latestDllVersion":  "11.0.61135.400",
+        "installers":  [
+                           ".\\installers\\2012\\x64\\vc_runtimeMinimum_x64.msi",
+                           ".\\installers\\2012\\x64\\vc_runtimeAdditional_x64.msi"
+                       ],
+        "productCodes":  [
+                             "{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}",
+                             "{37B8F9C7-03FB-3253-8781-2517C99D7C00}"
+                         ],
+        "regexFilter":  "^(?i)\\s*(?:Microsoft\\s+)?Visual\\s*C\\+\\+\\s*2012\\b.*?\\b(?:Redistributable|(?:Additional|Minimum)\\s+Runtime)\\b.*$",
+        "arch":  "x64",
+        "productName":  "Microsoft Visual C++ 2012 Redistributable (x64)",
+        "dllPaths":  "%x64SystemFolder%\\msvcp110.dll"
+    },
+    {
+        "latestDllVersion":  "12.0.40664.0",
+        "installers":  [
+                           ".\\installers\\2013\\x86\\vc_runtimeMinimum_x86.msi",
+                           ".\\installers\\2013\\x86\\vc_runtimeAdditional_x86.msi"
+                       ],
+        "productCodes":  [
+                             "{8122DAB1-ED4D-3676-BB0A-CA368196543E}",
+                             "{D401961D-3A20-3AC7-943B-6139D5BD490A}"
+                         ],
+        "regexFilter":  "^(?i)\\s*(?:Microsoft\\s+)?Visual\\s*C\\+\\+\\s*2013\\b.*?\\b(?:Redistributable|(?:Additional|Minimum)\\s+Runtime)\\b.*$",
+        "arch":  "x86",
+        "productName":  "Microsoft Visual C++ 2013 Redistributable (x86)",
+        "dllPaths":  "%x86SystemFolder%\\msvcp120.dll"
+    },
+    {
+        "latestDllVersion":  "12.0.40664.0",
+        "installers":  [
+                           ".\\installers\\2013\\x64\\vc_runtimeMinimum_x64.msi",
+                           ".\\installers\\2013\\x64\\vc_runtimeAdditional_x64.msi"
+                       ],
+        "productCodes":  [
+                             "{53CF6934-A98D-3D84-9146-FC4EDF3D5641}",
+                             "{010792BA-551A-3AC0-A7EF-0FAB4156C382}"
+                         ],
+        "regexFilter":  "^(?i)\\s*(?:Microsoft\\s+)?Visual\\s*C\\+\\+\\s*2013\\b.*?\\b(?:Redistributable|(?:Additional|Minimum)\\s+Runtime)\\b.*$",
+        "arch":  "x64",
+        "productName":  "Microsoft Visual C++ 2013 Redistributable (x64)",
+        "dllPaths":  "%x64SystemFolder%\\msvcp120.dll"
+    },
+    {
+        "latestDllVersion":  "14.44.35211.0",
+        "installers":  [
+                           ".\\installers\\2022\\x86\\vc_runtimeMinimum_x86.msi",
+                           ".\\installers\\2022\\x86\\vc_runtimeAdditional_x86.msi"
+                       ],
+        "productCodes":  [
+                             "{922480B5-CAEB-4B1B-AAA4-9716EFDCE26B}",
+                             "{C18FB403-1E88-43C8-AD8A-CED50F23DE8B}"
+                         ],
+        "regexFilter":  "^(?i)\\s*(?:Microsoft\\s+)?Visual\\s*C\\+\\+.*?(?:2015(?:\\s*(?:-|–|—|to)\\s*(?:2019|2022))?|2017|2019|2022)\\b.*?\\b(?:Redistributable|Runtime|(?:Additional|Minimum)\\s+Runtime)\\b.*$",
+        "arch":  "x86",
+        "productName":  "Microsoft Visual C++ 2015-2022 Redistributable (x86)",
+        "dllPaths":  "%x86SystemFolder%\\msvcp140.dll"
+    },
+    {
+        "latestDllVersion":  "14.44.35211.0",
+        "installers":  [
+                           ".\\installers\\2022\\x64\\vc_runtimeMinimum_x64.msi",
+                           ".\\installers\\2022\\x64\\vc_runtimeAdditional_x64.msi"
+                       ],
+        "productCodes":  [
+                             "{43B0D101-A022-48F4-9D04-BA404CEB1D53}",
+                             "{86AB2CC9-08BD-4643-B0F9-F82D006D72FF}"
+                         ],
+        "regexFilter":  "^(?i)\\s*(?:Microsoft\\s+)?Visual\\s*C\\+\\+.*?(?:2015(?:\\s*(?:-|–|—|to)\\s*(?:2019|2022))?|2017|2019|2022)\\b.*?\\b(?:Redistributable|Runtime|(?:Additional|Minimum)\\s+Runtime)\\b.*$",
+        "arch":  "x64",
+        "productName":  "Microsoft Visual C++ 2015-2022 Redistributable (x64)",
+        "dllPaths":  "%x64SystemFolder%\\msvcp140.dll"
+    }
+]
